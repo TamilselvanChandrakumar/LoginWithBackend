@@ -1,0 +1,108 @@
+body {
+  background-color: #fff7e4;
+}
+
+.nav-container {
+  padding: 1.3rem;
+  background-color: #f0f1f3;
+}
+.nav-container nav {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.hamburger {
+  display: flex;
+  align-items: center;
+}
+.rigtside-nav {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.admin-content-container {
+  display: flex;
+  gap: 1rem;
+}
+.admin-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.icon-number {
+  position: relative;
+}
+
+.icon-value {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-color: red;
+  top: -15px;
+  left: 15px;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 450px) {
+}
+
+/* table */
+
+table caption {
+  text-align: start;
+  padding: 2rem 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+}
+
+td {
+  text-align: center;
+}
+th {
+  text-align: center;
+  background-color: #e7e7e7;
+  padding: 1rem;
+}
+.theader-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+table {
+  border-collapse: collapse;
+  width: 70%;
+  height: 70vh;
+  margin: auto;
+  box-shadow: 0 6px 8px 0 #dddddd, 0 8px 20px 0 #dddddd;
+  border-radius: 10px;
+}
+tbody {
+  background-color: #e0e2e7;
+}
+.ngoname {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.representative-contact {
+  display: flex;
+  justify-content: center;
+}
+
+.representative-contact div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.6rem;
+}
+.representative-contact div img {
+  margin-right: 1rem;
+}
